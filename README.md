@@ -7,6 +7,22 @@
 
 - Héberger l'app sur Github et versionner l'appli régulièrement
 - Déployer le site grace à Git sur Github page et sur mon serveur privé
+
+
+- Mise en place du design CSS pour la page principale
+- Mise en place du design CSS pour la page "A la française"
+- Mise en place du design CSS pour la page "La note enchantée"
+- Mise en place du design CSS pour la page "La palette du gout"
+- Mise en place du design CSS pour la page "Le délice des sens"
+- Mise en place du responsive design
+- Vérification de la qualité du code (W3C css et html)
+
+
+-------------------------------------------------------
+## Elements déjà fait:
+
+- Réapprendre les push effectués en ligne de commande pour ne plus utiliser Github Desktop
+- Mise en place du repo et premier push en ligne de commande
 - Environnement de développement en place
 - Découpage de la maquette
 - intégration du header
@@ -19,15 +35,6 @@
 - Réalisation de la page "la palette du gout"
 - Réalisation de la page "le délice des sens"
 - Gérer l'affichage des conteneurs
-- Mise en place du responsive design
-- Vérification de la qualité du code (W3C css et html)
-
-
--------------------------------------------------------
-## Elements déjà fait:
-
-- Réapprendre les push effectués en ligne de commande pour ne plus utiliser Github Desktop
-- Mise en place du repo et premier push en ligne de commande
 
 -------------------------------------------------------
 ## A prendre en compte:
