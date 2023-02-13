@@ -51,5 +51,5 @@
 - Au survol, les boutons principaux doivent s'éclaircir + ombre portée plus visible
 - Bouton j'aime en forme de coeur qui se remplis progressivement 
 - Loading spinner au choix (suivre la charte graphique)
-- les plats apparaisseny progressivement ( comme sur l'exemple)
+- les plats apparaissent progressivement ( comme sur l'exemple)
 - Le visiteur peu cliquer sur les plats, une coche devra apparaitre vers la gauche
