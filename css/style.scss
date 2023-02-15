@@ -58,6 +58,10 @@ $grey: #EBEBEA;
                 position: relative;
             }
         }
+
+        &__form {
+            background-color: $color-form;
+        }
     }
 
     .card {
