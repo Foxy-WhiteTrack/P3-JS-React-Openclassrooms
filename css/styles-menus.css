@@ -1,0 +1,46 @@
+/* VERSION MOBILE start */
+@media only screen and (max-width: 767px) {
+    /* MENU start */
+
+    .menu-img img {
+        width: 100%;
+        height: 240px;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    main {
+
+        position: relative;
+        z-index: 2;
+        margin-top: -50px;
+        background-color: var(--color-form);
+        border-radius: 25px 25px 0px 0px;
+    }
+
+    .title-menu {
+        font-family: var(--font-title);
+        margin: 0 20px 0 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .title-menu span {
+        margin-top: 30px;
+    }
+
+    /* MENU end */
+}
+
+/* VERSION MOBILE end */
+
+/* VERSION TABLET start */
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+/* VERSION TABLET end */
+
+/* VERSION PC start */
+@media only screen and (min-width: 992px) {}
+
+/* VERSION PC end */
