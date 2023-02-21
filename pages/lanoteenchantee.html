@@ -9,7 +9,8 @@
     <meta name="country" content="France">
     <meta name="description" content="Site web de réservation de plats pour un restaurant">
     <!--*****STYLES*****-->
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/variables.css">
     <link rel="stylesheet" href="../css/styles-all.css">
     <link rel="stylesheet" href="../css/styles-menus.css">
     <!--*****FONTS & ICONS*****-->
@@ -36,55 +37,70 @@
 
     <main>
         <div>
-            <section>
-                <h1>A la Française</h1>
-                <span>
-                    <i class="fa-solid fa-heart fa-lg"></i>
+            <section class="title-menu">
+                <h1>La note enchantée</h1>
+                <span class="heart">
+                    <i class="fa-sharp fa-solid fa-heart"></i>
                 </span>
             </section>
 
-            <section>
-                <div>
-                    <h2>Entrées</h2>
-                    <div>
-
+            <section id="menu">
+                <div class="menu-part">
+                    <h2>ENTRÉES</h2>
+                    <div class="list-card fade-in-top">
                         <article>
-                            <div>
-                                <h3>Tartare de poulpe acidulé</h3>
-                                <p>Aux zestes d'orange</p>
-                            </div>
-                            <div>
+                            <div class="card-info">
                                 <div>
+                                    <h3>Ravioles de foie gras</h3>
+                                </div>
+                                <div class="card-info2">
+                                    <p>Accompagnés de leur crème à la truffe</p>
                                     <h3>25€</h3>
                                 </div>
-                                <div>
-                                    <i class="fa-solid fa-circle-check fa-lg"></i>
-                                </div>
+                            </div>
+                            <div class="card-anim">
+                                <i class="fa-solid fa-circle-check fa-lg"></i>
                             </div>
                         </article>
                         <article>
-                            <div>
-                                <h3>Velouté de légumes d'Antan</h3>
-                                <p>Carotte, Panais, Topinambour</p>
-                            </div>
-                            <div>
+                            <div class="card-info">
                                 <div>
+                                    <h3>Caviar osciètre</h3>
+                                </div>
+                                <div class="card-info2">
+                                    <p>Sur blini à la farine de blé noir</p>
                                     <h3>35€</h3>
                                 </div>
-                                <div>
-                                    <i class="fa-solid fa-circle-check fa-lg"></i>
-                                </div>
+                            </div>
+                            <div class="card-anim">
+                                <i class="fa-solid fa-circle-check fa-lg"></i>
                             </div>
                         </article>
                         <article>
-                            <div>
-                                <h3>Soupe à l'Oignon</h3>
-                                <p>Revisité</p>
+                            <div class="card-info">
+                                <div>
+                                    <h3>Homard et espuma de potiron</h3>
+                                </div>
+                                <div class="card-info2">
+                                    <p>Mariné aux zestes d'orange</p>
+                                    <h3>20€</h3>
+                                </div>
                             </div>
-                            <div>
-                                <h3>20€</h3>
+                            <div class="card-anim">
+                                <i class="fa-solid fa-circle-check fa-lg"></i>
                             </div>
-                            <div>
+                        </article>
+                        <article>
+                            <div class="card-info">
+                                <div>
+                                    <h3>Foie gras de canard cuit entier</h3>
+                                </div>
+                                <div class="card-info2">
+                                    <p>Confiture de figue et pain toasté</p>
+                                    <h3>35€</h3>
+                                </div>
+                            </div>
+                            <div class="card-anim">
                                 <i class="fa-solid fa-circle-check fa-lg"></i>
                             </div>
                         </article>
@@ -92,110 +108,112 @@
                     </div>
                 </div>
 
-                <div>
-                    <h2>Plats</h2>
-                    <div>
-
+                <div class="menu-part">
+                    <h2>PLATS</h2>
+                    <div class="list-card fade-in-top">
                         <article>
-                            <div>
-                                <h3>Coquilles Saint-Jacques</h3>
-                                <p>Accompagnées d'une purée de panais</p>
-                            </div>
-                            <div>
+                            <div class="card-info">
                                 <div>
+                                    <h3>Noix de coquilles Saint-Jacques</h3>
+                                </div>
+                                <div class="card-info2">
+                                    <p>Sur lit de purée de céleri-rave</p>
                                     <h3>40€</h3>
                                 </div>
-                                <div>
-                                    <i class="fa-solid fa-circle-check fa-lg"></i>
-                                </div>
+                            </div>
+                            <div class="card-anim">
+                                <i class="fa-solid fa-circle-check fa-lg"></i>
                             </div>
                         </article>
+
                         <article>
-                            <div>
-                                <h3>Magret de Canard</h3>
-                                <p>Et parmentier de pommes de Terre</p>
-                            </div>
-                            <div>
+                            <div class="card-info">
                                 <div>
+                                    <h3>Langoustine poêlée</h3>
+                                </div>
+                                <div class="card-info2">
+                                    <p>Purée de patate douce</p>
                                     <h3>35€</h3>
                                 </div>
-                                <div>
-                                    <i class="fa-solid fa-circle-check fa-lg"></i>
-                                </div>
+                            </div>
+                            <div class="card-anim">
+                                <i class="fa-solid fa-circle-check fa-lg"></i>
                             </div>
                         </article>
+
                         <article>
-                            <div>
-                                <h3>Pigeonneau d'Ille-et-Vilaine</h3>
-                                <p>Sur son lit de Gnocchis aux légumes</p>
-                            </div>
-                            <div>
+                            <div class="card-info">
                                 <div>
+                                    <h3>Mijoté de queue de boeuf</h3>
+                                </div>
+                                <div class="card-info2">
+                                    <p>Et riz sauvage aux zestes de citron</p>
                                     <h3>44€</h3>
                                 </div>
-                                <div>
-                                    <i class="fa-solid fa-circle-check fa-lg"></i>
-                                </div>
+                            </div>
+                            <div class="card-anim">
+                                <i class="fa-solid fa-circle-check fa-lg"></i>
                             </div>
                         </article>
-
                     </div>
                 </div>
 
-                <div>
-                    <h2>Dessert</h2>
-                    <div>
-
+                <div class="menu-part">
+                    <h2>DESSERTS</h2>
+                    <div class="list-card fade-in-top">
                         <article>
-                            <div>
-                                <h3>Pétales de Violettes Glaçées</h3>
-                                <p>Et Purée de Noisette</p>
-                            </div>
-                            <div>
+                            <div class="card-info">
                                 <div>
+                                    <h3>Macaron noisette et chocolat</h3>
+                                </div>
+                                <div class="card-info2">
+                                    <p>Glace au caramel brun et sel de Guérande</p>
                                     <h3>18€</h3>
                                 </div>
-                                <div>
-                                    <i class="fa-solid fa-circle-check fa-lg"></i>
-                                </div>
                             </div>
-                        </article>
-                        <article>
-                            <div>
-                                <h3>Fondant au chocolat</h3>
-                                <p>Revisité</p>
-                            </div>
-                            <div>
-                                <div>
-                                    <h3>22€</h3>
-                                </div>
-                                <div>
-                                    <i class="fa-solid fa-circle-check fa-lg"></i>
-                                </div>
-                            </div>
-                        </article>
-                        <article>
-                            <div>
-                                <h3>Millefeuille Croustillant</h3>
-                                <p>Myrtilles et pâte d'Amandes</p>
-                            </div>
-                            <div>
-                                <div>
-                                    <h3>23€</h3>
-                                </div>
-                                <div>
-                                    <i class="fa-solid fa-circle-check fa-lg"></i>
-                                </div>
+                            <div class="card-anim">
+                                <i class="fa-solid fa-circle-check fa-lg"></i>
                             </div>
                         </article>
 
+                        <article>
+                            <div class="card-info">
+                                <div>
+                                    <h3>Baba au rhum revisité</h3>
+                                </div>
+                                <div class="card-info2">
+                                    <p>Avec son coulis de citron</p>
+                                    <h3>22€</h3>
+                                </div>
+                            </div>
+                            <div class="card-anim">
+                                <i class="fa-solid fa-circle-check fa-lg"></i>
+                            </div>
+                        </article>
+
+                        <article>
+                            <div class="card-info">
+                                <div>
+                                    <h3>Tarte au citron meringuée</h3>
+                                </div>
+                                <div class="card-info2">
+                                    <p>Déstructurée</p>
+                                    <h3>23€</h3>
+                                </div>
+                            </div>
+                            <div class="card-anim">
+                                <i class="fa-solid fa-circle-check fa-lg"></i>
+                            </div>
+                        </article>
                     </div>
+
                 </div>
+
 
             </section>
 
-            <div>
-                <button>Commander</button>
+            <div id="ctn-btn">
+                <button class="btn-deco">Commander</button>
             </div>
 
         </div>

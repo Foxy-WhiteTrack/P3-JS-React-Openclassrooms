@@ -81,17 +81,6 @@
         margin-bottom: 40px;
     }
 
-    #presentation button {
-        padding: 20px;
-        background: linear-gradient(90deg, #9356DC 0%, #FF79DA 100%);
-        background: -webkit-linear-gradient(90deg, #9356DC 0%, #FF79DA 100%);
-        background: -moz-linear-gradient(90deg, #9356DC 0%, #FF79DA 100%);
-        border-radius: 40px;
-        font-weight: 400;
-        color: white;
-        border: none;
-    }
-
     #fonctionnement {
         padding: 20px;
         display: flex;
@@ -312,16 +301,6 @@
         margin-bottom: 40px;
     }
 
-    #presentation button {
-        padding: 20px;
-        background: linear-gradient(90deg, #9356DC 0%, #FF79DA 100%);
-        background: -webkit-linear-gradient(90deg, #9356DC 0%, #FF79DA 100%);
-        background: -moz-linear-gradient(90deg, #9356DC 0%, #FF79DA 100%);
-        border-radius: 40px;
-        font-weight: 400;
-        color: white;
-        border: none;
-    }
 
     #fonctionnement {
         padding: 20px;
@@ -500,7 +479,6 @@
         flex-direction: row;
         justify-content: space-evenly;
         width: 100%;
-        padding: 10px;
         background-color: var(--color-form);
     }
 
@@ -533,7 +511,6 @@
         text-align: center;
         background-color: #F7F7F7;
         padding: 20px;
-        width: 100%;
     }
 
     #presentation h1 {
@@ -545,7 +522,7 @@
         margin-bottom: 40px;
     }
 
-    #presentation button {
+    /* #presentation button {
         padding: 20px;
         background: linear-gradient(90deg, #9356DC 0%, #FF79DA 100%);
         background: -webkit-linear-gradient(90deg, #9356DC 0%, #FF79DA 100%);
@@ -555,7 +532,7 @@
         color: white;
         border: none;
         box-shadow: 0 4px 4px rgba(0, 2, 4, 0.2);
-    }
+    } */
 
     #presentation button:hover {
         box-shadow: 0 5px 5px rgba(0, 2, 4, 0.4);
@@ -708,6 +685,9 @@
 
     footer ul {
         padding-left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
 
     footer h2 {
