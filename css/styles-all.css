@@ -60,4 +60,180 @@ li {
     border: none;
 }
 
+.card-info h3,
+.card-info2 p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.fade-in-top {
+    -webkit-animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes fade-in-top {
+    0% {
+        -webkit-transform: translateY(30px);
+        transform: translateY(30px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in-top {
+    0% {
+        -webkit-transform: translateY(30px);
+        transform: translateY(30px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+article:hover .card-anim {
+    width: 20%;
+    transition: all 0.5s;
+}
+
+article:hover .card-info {
+    width: 80%;
+    transition: all 0.5s;
+}
+
+article:hover .card-anim i {
+    animation: rotate 0.5s ease-in-out both;
+}
+
+@keyframes rotate {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes rotate {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
 /* VERSION ALL end */
+
+/* VERSION ALL_MOBILE start */
+@media only screen and (max-width: 767px) {
+    .ctn-logo {
+        width: 100%;
+        text-align: center;
+        box-shadow: 0 4px 4px rgba(0, 2, 4, 0.2);
+        display: inline-block;
+        padding: 10px 0;
+        z-index: 1;
+    }
+
+
+
+    .logo {
+        width: 50%;
+        height: auto;
+        margin-left: 25%;
+        margin-right: 25%;
+        max-width: 100%;
+        /* VERSION ALL_MOBILE end */
+    }
+
+    footer {
+        background-color: #353535;
+        color: white;
+        font-weight: 400;
+        line-height: 30px;
+        padding: 20px;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: white;
+    }
+
+    footer i {
+        padding: 0 10px 0 10px;
+
+    }
+
+    footer ul {
+        padding-left: 0;
+    }
+
+    footer h2 {
+        font-family: var(--font-title);
+    }
+}
+
+/* VERSION PC start */
+@media only screen and (min-width: 992px) {
+    .ctn-logo {
+        width: 100%;
+        text-align: center;
+        box-shadow: 0 4px 4px rgba(0, 2, 4, 0.2);
+        display: inline-block;
+        padding: 10px 0;
+        z-index: 1;
+    }
+
+    .logo {
+        width: 30%;
+        height: auto;
+        margin-left: 25%;
+
+    }
+
+    footer {
+        background-color: #353535;
+        color: white;
+        font-weight: 400;
+        line-height: 30px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: white;
+    }
+
+    footer i {
+        padding: 0 10px 0 10px;
+    }
+
+    footer ul {
+        padding-left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    footer h2 {
+        font-family: var(--font-title);
+    }
+
+}
