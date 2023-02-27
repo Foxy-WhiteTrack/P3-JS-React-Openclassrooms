@@ -121,8 +121,29 @@
 
 /* VERSION MOBILE end */
 
-/* VERSION PC start */
-@media only screen and (min-width: 992px) {
+/* VERSION TABLET start */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #menu {
+        font-family: var(--font-text);
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .logo {
+        position: relative;
+        left: 13%;
+    }
+
+}
+
+/* VERSION TABLET end */
+
+/* VERSION PC/TABLET start */
+@media only screen and (min-width: 768px) {
 
     .menu-img {
         width: 100%;
@@ -130,7 +151,8 @@
 
     /* MENU start */
     .logo {
-        margin-right: 35%;
+
+        padding-left: 40px;
     }
 
     .menu-img img {
@@ -160,13 +182,7 @@
         margin-top: 30px;
     }
 
-    #menu {
-        font-family: var(--font-text);
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
+
 
     .menu-part {
         margin-left: 10px;
@@ -265,6 +281,19 @@
         justify-content: space-evenly;
     }
 
+}
+
+/* VERSION PC/TABLET end */
+
+/* VERSION PC start */
+@media only screen and (min-width: 992px) {
+    #menu {
+        font-family: var(--font-text);
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 }
 
 /* VERSION PC end */
