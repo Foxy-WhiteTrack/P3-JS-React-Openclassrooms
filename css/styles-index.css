@@ -542,7 +542,6 @@
     }
 
     #restaurant article:hover {
-        background-color: var(--fonct-hover);
         box-shadow: 0 5px 5px rgba(0, 2, 4, 0.4);
     }
 
@@ -578,3 +577,60 @@
 }
 
 /* VERSION PC end */
+
+
+#loader {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 4px solid var(--primary);
+    border-right: 4px solid transparent;
+    animation: rotation 3s linear;
+    animation-fill-mode: forwards;
+
+}
+
+#loader::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border-bottom: 4px solid var(--tertiary);
+    border-left: 4px solid transparent;
+    animation-fill-mode: forwards;
+}
+
+#page {
+    animation: loading 3s linear;
+    animation-fill-mode: forwards;
+}
+
+
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg);
+        visibility: hidden
+    }
+}
+
+@keyframes loading {
+    0% {
+        opacity: 0.33;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

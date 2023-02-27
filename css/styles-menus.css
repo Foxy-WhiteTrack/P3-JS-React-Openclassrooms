@@ -268,3 +268,11 @@
 }
 
 /* VERSION PC end */
+
+#return-ctn {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    font-size: 30px;
+    color: black;
+}

@@ -54,10 +54,18 @@ li {
     background: linear-gradient(90deg, #9356DC 0%, #FF79DA 100%);
     background: -webkit-linear-gradient(90deg, #9356DC 0%, #FF79DA 100%);
     background: -moz-linear-gradient(90deg, #9356DC 0%, #FF79DA 100%);
+    box-shadow: 0 4px 4px rgba(0, 2, 4, 0.2);
     border-radius: 40px;
     font-weight: 400;
     color: white;
     border: none;
+}
+
+.btn-deco:hover {
+    background: linear-gradient(90deg, #ba8ef1 0%, #ffb8eb 100%);
+    background: -webkit-linear-gradient(90deg, #ba8ef1 0%, #ffb8eb 100%);
+    background: -moz-linear-gradient(90deg, #ba8ef1 0%, #ffb8eb 100%);
+    box-shadow: 0 5px 5px rgba(0, 2, 4, 0.4);
 }
 
 .card-info h3,
@@ -198,6 +206,11 @@ article:hover .card-anim i {
         display: inline-block;
         padding: 10px 0;
         z-index: 1;
+
+    }
+
+    .ctn-logo-menu {
+        display: flex;
     }
 
     .logo {
