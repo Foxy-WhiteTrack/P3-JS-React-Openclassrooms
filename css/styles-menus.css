@@ -85,6 +85,12 @@
         width: 100%;
     }
 
+    .card-info h3,
+    p {
+        padding: 5px;
+        margin: 5px;
+    }
+
     .card-info2 {
         display: flex;
         flex-direction: row;
@@ -116,6 +122,10 @@
         font-family: var(--font-text);
     }
 
+    .return-ctn {
+        font-size: 18px;
+    }
+
     /* MENU end */
 }
 
@@ -136,6 +146,10 @@
     .logo {
         position: relative;
         left: 13%;
+    }
+
+    .return-ctn {
+        font-size: 26px;
     }
 
 }
@@ -294,6 +308,10 @@
         flex-direction: row;
         justify-content: space-evenly;
     }
+
+    .return-ctn {
+        font-size: 30px;
+    }
 }
 
 /* VERSION PC end */
@@ -311,6 +329,5 @@
     display: flex;
     align-items: center;
     padding-left: 40px;
-    font-size: 30px;
     color: black;
 }

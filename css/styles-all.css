@@ -68,7 +68,7 @@ li {
     box-shadow: 0 5px 5px rgba(0, 2, 4, 0.4);
 }
 
-.card-info h3,
+.card-title,
 .card-info2 p {
     overflow: hidden;
     text-overflow: ellipsis;
@@ -164,8 +164,6 @@ article:hover .card-anim i {
     .logo {
         width: 50%;
         height: auto;
-        margin-left: 25%;
-        margin-right: 25%;
         max-width: 100%;
         /* VERSION ALL_MOBILE end */
     }
