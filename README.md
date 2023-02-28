@@ -1,12 +1,5 @@
-# Lancer le serveur:
-
-#### taper la commande `npm run start`
-
 -------------------------------------------------------
 ## Elements à faire:
-
-- Mise en place du responsive design
-- Vérification de la qualité du code (W3C css et html)
 
 -------------------------------------------------------
 ## Elements déjà fait:
@@ -32,6 +25,9 @@
 - Mise en place du design CSS pour la page "Le délice des sens"
 - Héberger l'app sur Github et versionner l'appli régulièrement
 - Déployer le site grace à Git sur Github page et/ou sur mon serveur privé
+- Mise en place du responsive design
+
+- Vérification de la qualité du code (W3C css et html)
 
 -------------------------------------------------------
 ## A prendre en compte:
